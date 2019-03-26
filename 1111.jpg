@@ -1,5 +1,0 @@
-#!/bin/bash
-while read USER
-do
-/opt/zimbra/bin/zmmailbox -z -m $USER@macau.ctm.net getRestURL "//?fmt=tgz" > /tmp/$USER.tgz
-done < /tmp/user.txt
